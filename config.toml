@@ -1,4 +1,4 @@
-baseURL = "https://www.simple-image-gallery.netlify.com/"
+baseURL = "https://simple-image-gallery.netlify.com/"
 languageCode = "en-us"
 title = "Coasters Photo Gallery"
 theme = "phugo-master"
