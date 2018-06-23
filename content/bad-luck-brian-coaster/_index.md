@@ -2,7 +2,6 @@
 albumthumb = "/brian/brian-glass-350px.jpg"
 date = "2016-10-21T19:07:17+03:00"
 title = "Bad Luck Brian Coaster"
-subtitle = "gets coaster, spills everywhere"
 
 +++
 
