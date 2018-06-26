@@ -1,7 +1,7 @@
 +++
-albumthumb = "/brian/brian-glass-350px.jpg"
+albumthumb = "/brian/brian-close-350px.jpg"
 date = "2016-10-21T19:07:17+03:00"
-title = "Bad Luck Brian Coaster"
+title = "Bad Luck Brian"
 
 +++
 

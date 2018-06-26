@@ -1,5 +1,5 @@
 +++
-albumthumb = "/dafoe/dafoe-glass-350.jpg"
+albumthumb = "/dafoe/dafoe-table-350.jpg"
 date = "2016-10-21T19:08:02+03:00"
 title = "Somewhat of a Scientist"
 
