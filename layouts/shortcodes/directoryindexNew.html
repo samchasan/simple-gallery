@@ -1,0 +1,13 @@
+{{- $pathURL := .Get "pathURL" -}}
+{{- $path := .Get "path" -}}
+{{- $files := readDir $path -}}
+
+
+{{- range $files }}
+<figure>
+<a href="{{ $pathURL }}{{ .Name | relURL }}">
+<img class="thumbnail" src="{{ $pathURL }}{{ .Name | relURL }}" class="image" width: 100% >
+</a>
+</figure>
+<br></br>
+{{- end }}

@@ -5,25 +5,26 @@
 <article>
 {{- range $files }}
     <img src="{{ $pathURL }}{{ .Name | relURL }}"></td>
-    <p> {{.Name}} </p>
     <script>
-      var largePhotoSize = 1000
-      var smallPhotoSize = 350
+      var photographs = [];
+      var largePhotoSize = 1000;
+      var smallPhotoSize = 350;
       var path = {{$pathURL}};
       var name = {{.Name}};
       var fullName = path+"/"+name
-
       makeGall(fullName);
-
 
       function makeGall(name){
         var fullPhoto = name.includes(largePhotoSize);
         if(fullPhoto){
           var thumbName = name.replace(largePhotoSize,smallPhotoSize);
-          console.log(name+", "+thumbName);
-          return name;
+          // console.log(name+", "+thumbName);
+          // return name;
+          photographs.push(name, thumbName);
+          console.log(photographs.length)
+          
         }
-      }
+        }
     </script>
     {{- end }}
 </article>
